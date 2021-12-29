@@ -7,6 +7,5 @@ jar {
 }
 
 dependencies {
-    implementation project(':module-api')
-    implementation project(':module-domain')
+    compile project(':module-api')
 }
